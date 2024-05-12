@@ -1,0 +1,17 @@
+[package]
+license = "MIT"
+edition = "2021"
+version = "0.1.0"
+name = "procreate"
+categories = ["multimedia::images"]
+authors = ["Miguel Piedrafita <rust@miguel.build>"]
+description = "A library for reading Procreate files."
+repository = "https://github.com/m1guelpf/procreate-rs"
+keywords = ["procreate", "image", "ipad", "art", "decoder"]
+
+
+[dependencies]
+zip = "1.2.3"
+plist = "1.6.1"
+thiserror = "1.0.60"
+nskeyedarchiver_converter = "0.1.1"
